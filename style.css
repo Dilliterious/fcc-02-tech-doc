@@ -38,6 +38,14 @@ nav a {
     text-decoration: none;
 }
 
+code {
+    display: block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
 /* ||Main */
 
 main {
@@ -61,7 +69,7 @@ main li {
         height: 100%;
         width: 20rem;
         flex-shrink: 0;
-        position: absolute;
+        position: fixed;
     }
 }
 
